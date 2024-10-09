@@ -13,6 +13,7 @@ body {
   /* display: flex;
   gap: 2rem;
   justify-content: center; */
+  background-color: lightgray;
 }
 
 .text-block {
@@ -79,4 +80,80 @@ em {
 
 .text-red {
   color: red;
+}
+
+/* GLOBAL FLAG */
+.flag {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.flag-2-3 {
+  width: 600px;
+  height: 400px;
+}
+
+/* JAPAN */
+.japan {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.japan .red-dot {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(151, 4, 9);
+  border-radius: 100%;
+}
+
+/* SWEDEN */
+.sweden {
+  background-color:#005293;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sweden .line {
+  background-color: #FFCD00;
+}
+
+.sweden .line.horizontal-line {
+  height: 4rem;
+  width: 100%;
+}
+
+.sweden .line.vertical-line {
+  height: 100%;
+  width: 4rem;
+  position: absolute;
+  top: 0;
+  left: 30%;
+}
+
+/* ITALY */
+
+.italy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.italy .bars {
+  height: 100%;
+  width: 100%;
+}
+
+.italy .green {
+  background-color: #008C45;
+}
+
+.italy .white {
+  background-color: #F4F9FF;
+}
+
+.italy .red {
+  background-color: #CD212A;
 }
