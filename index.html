@@ -4,35 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Typography</title>
+    <!-- Google Fonts linked in the head-tag -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CDN Fonts -->
+    <link href="https://fonts.cdnfonts.com/css/publik" rel="stylesheet">
+    <!-- My styles -->
+     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="text-block">
-      <p class="text-left">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus,
+    <div class="text-block text-left">
+      <h2>This is a heading</h2>
+      <p>
+        Lorem ipsum dolor sit amet, <strong>consectetur adipisicing elit</strong>. Repellendus,
+        quo quod! Vitae <b>commodi vel unde perspiciatis</b> sed nobis porro illo aut
+        labore cum est, ea exercitationem assumenda? Eveniet aspernatur dolore
+        exercitationem, vitae consequuntur inventore. Cumque, modi.
+      </p>
+    </div>
+    <div class="text-block text-center">
+      <h2>This is a heading</h2>
+      <p>
+        Lorem ipsum dolor sit amet, <i>consectetur adipisicing elit</i>. Repellendus,
+        quo quod! Vitae commodi vel <em>unde perspiciatis sed</em> nobis porro illo aut
+        labore cum est, ea exercitationem assumenda? Eveniet aspernatur dolore
+        exercitationem, vitae consequuntur inventore. Cumque, modi. <a href="#">Link text</a>
+      </p>
+    </div>
+    <div class="text-block text-right">
+      <h2>This is a heading</h2>
+      <p>
+        <span class="bold italic">Lorem ipsum dolor sit amet</span>, consectetur adipisicing elit. Repellendus,
         quo quod! Vitae commodi vel unde perspiciatis sed nobis porro illo aut
         labore cum est, ea exercitationem assumenda? Eveniet aspernatur dolore
         exercitationem, vitae consequuntur inventore. Cumque, modi.
       </p>
     </div>
-    <div class="text-block">
-      <p class="text-center">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus,
-        quo quod! Vitae commodi vel unde perspiciatis sed nobis porro illo aut
-        labore cum est, ea exercitationem assumenda? Eveniet aspernatur dolore
-        exercitationem, vitae consequuntur inventore. Cumque, modi.
-      </p>
-    </div>
-    <div class="text-block">
-      <p class="text-right">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus,
-        quo quod! Vitae commodi vel unde perspiciatis sed nobis porro illo aut
-        labore cum est, ea exercitationem assumenda? Eveniet aspernatur dolore
-        exercitationem, vitae consequuntur inventore. Cumque, modi.
-      </p>
-    </div>
-    <div class="text-block">
-      <p class="text-justified">
+    <div class="text-block text-justified">
+      <h2>This is a heading</h2>
+      <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus,
         quo quod! Vitae commodi vel unde perspiciatis sed nobis porro illo aut
         labore cum est, ea exercitationem assumenda? Eveniet aspernatur dolore
