@@ -168,6 +168,7 @@ em {
 
 .pride {
   background-color: lightblue;
+  /* Det är overflow som styrs så att vi kan "klippa bort innehåll som ligger utanför div:en */
   overflow: hidden;
 }
 
